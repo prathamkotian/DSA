@@ -2,6 +2,7 @@
 # Push max value element to right-most position
 # chooses two adjacent elements and checks for condition and swaps
 # Time Complexity O(N^2)
+# If arr in ascending order O(N) Best Case
 
 def bubble_sort(arr):
 
