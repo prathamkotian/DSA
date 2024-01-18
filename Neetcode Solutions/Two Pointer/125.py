@@ -1,5 +1,6 @@
 # Valid Palindrome 
 # isalnum() == True means that string is alphanumeric i.e it doesnt contain special characters
+# Time Complexity O(N)
 class Solution:
     def validpalindrome(self,s:str)->bool:
         # initializing left to index 0 and right to last index 
