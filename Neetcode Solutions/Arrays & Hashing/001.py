@@ -1,3 +1,7 @@
+# Two Sum 
+# Time Complexity O(N)
+# Space Complecity O(N)
+
 def twosum(nums,target):
     n=len(nums)
     hmap={}
