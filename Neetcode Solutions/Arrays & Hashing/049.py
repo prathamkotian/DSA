@@ -1,4 +1,4 @@
-
+# Group Anagrams
 class Solution:
     def groupAnagrams(self, strs: [str]) -> [[str]]:
         # initializing a dictionary
