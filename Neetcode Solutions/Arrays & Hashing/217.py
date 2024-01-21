@@ -16,17 +16,18 @@ class Solution:
             hmap[i]=hmap.get(i,0)+1
             
         return False
-    
-arr=[1,2,3,5,9]
-print(Solution().containsDuplicate(arr)) 
-
-#------------------------------------------------------------
-
+class Solution_2:
 # Set doesnt store dublicate elements  
-
-class Solution:
    def containsDuplicate(self, nums: [int]) -> bool:
        if len(nums) == len(set(nums)):
            return False
        # which means len(nums) >len(set(nums)) => Dublicate elements present
        return True 
+       
+arr=[1,2,3,5,3,9]
+print(Solution().containsDuplicate(arr)) 
+print(Solution_2().containsDuplicate(arr)) 
+
+#------------------------------------------------------------
+
+
