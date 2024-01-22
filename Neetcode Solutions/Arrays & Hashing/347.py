@@ -1,4 +1,6 @@
 # Top K frequent elements
+# Time Complexity O(N+NlogN) beacuse of sorting
+# Space complecity O(N) 
 class Solution:
     def topKFrequent(self, nums: [int], k: int) -> [int]:
         num_store = {}
