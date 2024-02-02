@@ -11,7 +11,8 @@ class Solution:
             else:
                 num_store[num] = 1
 
-        # this sorts the key based on the values
+        # this sorts the key based on the values and returns in type LIST
+        # sorted_nums is LIST
         sorted_nums = sorted(num_store, key=num_store.get, reverse=True)
         print(num_store)
         # returns first k key values 
