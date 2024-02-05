@@ -9,6 +9,9 @@ class Solution:
             k = k % len(nums)
 
         # nums[:]=nums[-k:]+nums[:-k]
+            
+        # for i in range(n-k):
+        #     nums.append(nums.pop(0))
 
         last_k_elements = nums[-k:]
         nums[k:] = nums[:-k]
