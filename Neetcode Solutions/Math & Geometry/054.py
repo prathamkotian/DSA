@@ -1,6 +1,6 @@
 # Spiral Matrix
 class Solution:
-    def spiralOrder(self, matrix: [[int]]) -> [int]:
+    def spiralOrder(self, matrix: list[list[int]]) -> list[int]:
         m=len(matrix) # rows
         n=len(matrix[0])   # columns
 
