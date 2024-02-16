@@ -4,6 +4,17 @@
 
 class Solution:
     def canJump(self, nums: list[int]) -> bool:
+        final_idx=nums[len(nums)-1]
+
+        for i in range(len(nums)-2,-1,-1):
+
+            if i+nums[i]>=final_idx:
+                final_idx=i
+        
+        return final_idx==0
+            
+class Solution_2:
+    def canJump(self, nums: list[int]) -> bool:
         idx=0
         for i in nums:
             if idx<0:
